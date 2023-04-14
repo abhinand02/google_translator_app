@@ -38,6 +38,7 @@ dependencies:
   dio: ^5.1.1
   flutter_bloc: ^8.1.2
   freezed_annotation: ^2.2.0
+  iconsax: ^0.0.8
 
 dev_dependencies:
   flutter_test:

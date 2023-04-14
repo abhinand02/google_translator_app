@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:google_translator/model/lang_code_list.dart';
 import '../model/language_model.dart';
 import '../model/translator_model.dart';
 import 'constants.dart';
@@ -16,7 +17,7 @@ class APIService {
         ),
       );
       var res = LanguageList.fromJson(resp.data);
-      print(res.data.languages[0].language);
+      print(LangList.isoLangs[res.data.languages[0].language]);
     } catch (e) {
       print(e.toString());
     }
