@@ -79,9 +79,13 @@ static	var isoLangs = {
 			"nativeName":"বাংলা"
 		},
 		"bh":{
-			"name":"Bihari",
+			"name":"Bihari", 
 			"nativeName":"भोजपुरी"
 		},
+    "bho":{
+      "name":"Bojpuri",
+			"nativeName":"Bojpuri"
+    },
 		"bi":{
 			"name":"Bislama",
 			"nativeName":"Bislama"
@@ -114,6 +118,46 @@ static	var isoLangs = {
 			"name":"Chechen",
 			"nativeName":"нохчийн мотт"
 		},
+    "ceb":{
+          "name": "Cebuano"
+    },
+    "ckb":{
+      "name":"Central Kurdish"
+    },
+    "doi":{
+      "name":"Dogri"
+    },
+    "haw":{
+      "name":"Hawaiian"
+    },
+    "gom":{
+      "name":"Konkani"
+    },
+    "ilo":{
+      "name":"Iloko"
+    },
+    "hmn":{
+      "name":"Hmong"
+    },
+    "kri":{
+      "name":"Krio"
+    },"lus":{
+      "name":"Lushai"
+    },"mai":{
+      "name":"Maithili"
+    },
+    "mni-Mtei":{
+      "name":"Manipuri"
+    },
+    "nso":{
+      "name":"Pedi"
+    },
+    "zh-CN":{
+      "name":"Chinese (PRC)"
+    },
+    "zh-TW":{
+      "name":"Chinese (Taiwan)"
+    },
 		"ny":{
 			"name":"Chichewa; Chewa; Nyanja",
 			"nativeName":"chiCheŵa, chinyanja"

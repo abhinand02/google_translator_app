@@ -6,7 +6,8 @@ import 'constants.dart';
 
 class APIService {
   static Dio dio = APIConstants.dio;
-  static Future getLanguages() async {
+  static Future<List<Language>> getLanguages() async {
+    var res;
     try {
       var resp = await dio.get(
         '${APIConstants.unEncodedPath}/languages',
@@ -16,27 +17,37 @@ class APIService {
           },
         ),
       );
-      var res = LanguageList.fromJson(resp.data);
-      print(LangList.isoLangs[res.data.languages[0].language]);
+      if (resp.statusCode == 200) {
+        res = LanguageList.fromJson(resp.data);
+      } else {
+        print('error');
+      }
+      // print(LangList.isoLangs[res.data.languages[0].language]);
     } catch (e) {
       print(e.toString());
     }
+    return res.data.languages;
   }
 
-  static Future translations() async {
+  static Future<String> translations(
+      {required String text,
+      required String target,
+      required String source}) async {
+    var res;
     try {
       var resp = await dio.post(APIConstants.unEncodedPath,
-          data: {'q': 'Hello, world!', 'target': 'es', 'source': 'en'},
+          data: {'q': text, 'target': target, 'source': source},
           options: Options(headers: {
             'content-type': 'application/x-www-form-urlencoded',
             'Accept-Encoding': 'application/gzip',
             'X-RapidAPI-Key': APIConstants.apiKey,
             'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
           }));
-      var res = TranslatorModel.fromJson(resp.data);
-      print(res.data.translations.first.translatedText);
+      res = TranslatorModel.fromJson(resp.data);
+      // print(res.data.translations.first.translatedText);
     } catch (e) {
       print(e.toString());
     }
+    return res.data.translations.first.translatedText;
   }
 }
