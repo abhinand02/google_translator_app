@@ -1,4 +1,4 @@
-#Sat Apr 15 14:37:28 IST 2023
+#Sat Apr 15 14:46:11 IST 2023
 base.0=C\:\\Flutter Projects\\google_translator\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 
 class APIConstants {
 
-  static const apiKey = '15322c9f01mshe7b3854663d28fdp12cdc4jsna410c19846ca';
+  static const apiKey = '47f008e4eemsh2b50d38d51b047bp14fa9ajsn7a02f29aaf04';
 
   static const unEncodedPath = '/language/translate/v2';
   
