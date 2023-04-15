@@ -1,0 +1,12 @@
+com.example.google_translator.app-debug-0 C:\Flutter Projects\google_translator\android\app\src\debug\res
+com.example.google_translator.app-main-1 C:\Flutter Projects\google_translator\android\app\src\main\res
+com.example.google_translator.app-pngs-2 C:\Flutter Projects\google_translator\build\app\generated\res\pngs\debug
+com.example.google_translator.app-resValues-3 C:\Flutter Projects\google_translator\build\app\generated\res\resValues\debug
+com.example.google_translator.app-rs-4 C:\Flutter Projects\google_translator\build\app\generated\res\rs\debug
+com.example.google_translator.app-mergeDebugResources-5 C:\Flutter Projects\google_translator\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.google_translator.app-mergeDebugResources-6 C:\Flutter Projects\google_translator\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.google_translator.app-merged_res-7 C:\Flutter Projects\google_translator\build\app\intermediates\merged_res\debug
+com.example.google_translator.app-jetified-window-java-1.0.0-beta04-8 C:\Users\ashly\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.google_translator.app-core-1.6.0-9 C:\Users\ashly\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.example.google_translator.app-jetified-annotation-experimental-1.1.0-10 C:\Users\ashly\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.google_translator.app-jetified-window-1.0.0-beta04-11 C:\Users\ashly\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
