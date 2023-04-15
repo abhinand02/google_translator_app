@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Google Translator',
         theme: ThemeData(
             primarySwatch: Colors.blue,
-            // appBarTheme: const AppBarTheme(backgroundColor: Colors.black54),
             colorScheme: const ColorScheme.dark()),
         home:  HomeScreen(),
       ),
